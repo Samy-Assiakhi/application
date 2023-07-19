@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'azo_sansregular';
+    src: url('font/rui_abreu_-_azosans-regular-webfont.woff2') format('woff2'),
+         url('font/rui_abreu_-_azosans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+    background-color: #232e5b;
+    margin-top: 25vh;
+    font-family: 'azo_sansregular',Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    font-size: 24px;
+    color: #fff;
+}
+p {
+    color: #9196AD;
+    font-size: 16px;
+    margin-top: -20px;
+}
+img {
+    width: 250px;
+    margin: auto;
+}
+.logo{
+    width: 100px;
+    margin: auto;
+}
+.images{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+    padding-top: 15px;
+    gap: 8px;
+}
+.container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+    margin-top: 25vh;
+    gap:8px;
+    
+}
+
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 14px;
+    }
+    img {
+        width: 150px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    h1 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 14px;
+    }
+    img {
+        width: 150px;
+        margin: auto;
+    }
+}
